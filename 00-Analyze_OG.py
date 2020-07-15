@@ -45,4 +45,4 @@ for lig in range(len(bigfile.index)):
 	sa.append(sascore)
 bigfile['SA'] = sascore
 bigfile.sort_values(by=['SA'],inplace=True,ascending=False)
-bigfile.to_csv('Summary.txt',index=False)
+bigfile.to_csv('Summary.csv',index=False)
